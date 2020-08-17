@@ -1,4 +1,4 @@
-import { SAVE_COMMENT } from './comments'
+import { SAVE_COMMENT } from '../actions/types'
 
 export default function(state=[], action) {
   switch (action.type) {
